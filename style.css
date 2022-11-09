@@ -1,0 +1,102 @@
+/* Write some CSS below */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #404042;
+    font-size: 18px;
+  }
+  
+  h1, h2, h3 {
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: #1A48E3;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .4s;
+  }
+  
+  a:hover {
+    color: #CE2FAE;
+  }
+
+  .banner {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .banner h1 {
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin: 0;
+
+  }
+  .banner p {
+    color: rgba(255,255,255,0.6);
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .container {
+    align-items: center;
+    width: 800px;
+    margin: auto;
+
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+
+
+  }
+  .button-blue {
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    margin-top: 50px;
+  }
+  .button-blue:hover {
+    background-color: #0D1EC6;
+    color: white;
+  }
+.card-white {
+    background: whitesmoke;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 200px;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.card-white img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.footer {
+    background: #404042;
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 50px;
+  }
+  
+  .footer p {
+    color: white;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
